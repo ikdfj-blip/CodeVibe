@@ -133,7 +133,7 @@ nav a:hover{
 .boton:hover{
     background-color:  rgba(218, 217, 217, 0.473);
 }
-.cont_donaciones {
+.contenedor {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,7 +142,7 @@ nav a:hover{
     width: 90%;
 }
 
-.foto_donacion {
+.foto_contenedor {
     width: 22%;
     height: 250px;
     object-fit: cover;
