@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donaciones</title>
+    <link rel="stylesheet" href="../css/amigos_peludos.css">
+</head>
+
+<body>
+    <header>
+        <nav id="encabezado">
+            <a href="index.html">
+            <img src="../fotos/logo.jpg" alt="logotipo de amigos" id="logo">
+            </a>
+            <div id="indice">
+                <a href="index.html" alt="pagina de inicio">Inicio</a>
+                <a href="sobre_nosotros.html" alt="informacion sobre la protectora">Sobre Nosotros</a>
+                <a href="animales.html" alt="que animales puedes adoptar">Animales</a>
+                <a href="voluntariado.html" alt="actividades en las que puedes participar">Voluntariado</a>
+                <a href="donaciones.html" alt="donaciones para apoyar a la protectora">Donaciones</a>
+            </div>
+        </nav>
+    </header>
+    <section name="contenido">
+        <h1 class="titulo">Donaciones</h1>
+        <p class="parrafo">
+            ¡Ayúdanos a seguir salvando vidas!<br><br>
+
+            En la protectora Amigos Peludos trabajamos cada día para cuidar y 
+            encontrar un hogar a los animales que más lo necesitan. 
+            Para continuar con nuestra labor, necesitamos donaciones
+            que nos permitan cubrir los gastos de alimentación, medicamentos, 
+            atención veterinaria, vacunas y mantenimiento de nuestras instalaciones. <br><br>
+
+            Cada donación cuenta, por pequeña que sea, y nos ayuda a 
+            ofrecer una vida mejor a nuestros amigos peludos. ¡Colabora 
+            con nosotros y ayúdanos a cambiar sus vidas!
+        </p><br><br><br>
+    </section>
+    <img src="../fotos/perrogordo.jpg"width=20%>
+    <form class="formulario">
+        <fieldset class="fieldset">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"> <br><br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido"><br><br>
+            <label for="DNI">DNI:</label>
+            <input type="text" id="DNI" name="DNI"><br><br>
+            <label for="correo electronico">Correo electronico:</label>
+            <input type="text" id="correo electronico" name="correo electronico"><br><br>
+            <label for="cantidad dinero">¿Cuanta cantidad quieres donar (€)?:</label>
+            <input type="number" id="cantidad dinero" name="cantidad dinero" min="0" value="1"><br><br>
+            <label for="metodo de pago">Metodo de pago:</label>
+            <select>
+                <option value="PayPal">PayPal</option>
+                <option value="Visa">Visa</option>
+                <option value="Apple Pay">Apple Pay</option>
+                <option value="Mastercard">Mastercard</option>
+            </select> <br>
+        </fieldset>
+        <br>
+        <input class="boton" type="submit" value="Enviar">
+        <input class="boton" type="reset" value="Borrar">
+    </form>
+    <img src="../fotos/perrobañado.jpg"width=20%>
+</body>
+</html>
