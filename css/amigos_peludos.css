@@ -148,3 +148,6 @@ nav a:hover{
     object-fit: cover;
     border-radius: 15px;
 }
+.pie {
+    color: rgba(128, 128, 128, 0.404);
+}
