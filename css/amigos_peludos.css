@@ -129,8 +129,22 @@ nav a:hover{
     font-family:verdana;
     font-weight: bold;
     transition: 0.5s;
-
 }
 .boton:hover{
     background-color:  rgba(218, 217, 217, 0.473);
+}
+.cont_donaciones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 30px auto;
+    width: 90%;
+}
+
+.foto_donacion {
+    width: 22%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
 }
