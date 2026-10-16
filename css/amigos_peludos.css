@@ -148,6 +148,23 @@ nav a:hover{
     object-fit: cover;
     border-radius: 15px;
 }
+
+.fotobichos img{
+    border-radius: 50px;
+    width: 230px;
+    height: 200px;
+    object-fit: cover;
+}
+.fila1{
+    display: flex;
+    justify-content: center;
+}
+.fila2{
+    display: flex;
+    justify-content: center;
+}
+
 .pie {
     color: rgba(128, 128, 128, 0.404);
+    position: fixed; bottom: 0;
 }
