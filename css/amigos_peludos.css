@@ -1,10 +1,10 @@
 :root {
-    --fondo: #F7F3E8;
-    --verde-claro: #DCE5D5;
-    --verde: #78916D;
-    --marron: #76513B;
+    --fondo: #F2F5EF;
+    --verde-claro: #DCE8D8;
+    --verde: #426B4A;
+    --marron: #315B40;
     --blanco: #FFFFFF;
-    --texto: #333333;
+    --texto: #26352B;
 }
 
 body{
@@ -30,7 +30,7 @@ nav a{
 nav a:hover{
     color: var(--marron);
 }
-    
+
 
 #logo{
     width: 100px;
@@ -97,7 +97,7 @@ nav a:hover{
     border-radius: 20px;
     gap: 20px;
     border: 1px, solid, var(--verde);
-    
+
 }
 
 #logo2{
@@ -141,7 +141,7 @@ nav a:hover{
     transition: 0.5s;
 }
 .boton:hover{
-    background-color:  var(--verde);
+    background-color: var(--verde);
 }
 .contenedor {
     display: flex;
@@ -159,7 +159,7 @@ nav a:hover{
     border-radius: 15px;
 }
 .animalito {
-    background-color: white;
+    background-color: var(--blanco);
     padding: 15px;
     border-radius: 15px;
     width: 100%;
@@ -185,7 +185,7 @@ nav a:hover{
 
 
 .pie {
-    color: rgba(128, 128, 128, 0.404);
+    color: rgba(38, 53, 43, 0.4);
     position: fixed; bottom: 0;
 }
 
@@ -197,7 +197,7 @@ nav a:hover{
     margin: 20px auto;
     font-family: Verdana;
     font-weight: bold;
-    background-color: rgb(218, 217, 217);
+    background-color: var(--verde-claro);
     padding: 30px;
     border-radius: 20px;
     width: 60%;
@@ -242,4 +242,3 @@ nav a:hover{
         font-size: 30px;
     }
 }
-
