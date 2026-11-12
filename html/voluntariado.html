@@ -31,24 +31,42 @@
     </section>
     <div class="contenedor">
     <img src="../fotos/perronegro.gif"width=20% class="foto_contenedor" alt="perro negro feliz">
-    <form class="formulario">
-        <fieldset class="fieldset">
+    
+<form class="formulario">
+    <fieldset class="fieldset">
+        <div class="campo">
             <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre"> <br><br>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+
+        <div class="campo">
             <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido" name="apellido"><br><br>
+            <input type="text" id="apellido" name="apellido">
+        </div>
+
+        <div class="campo">
             <label for="DNI">DNI:</label>
-            <input type="text" id="DNI" name="DNI"><br><br>
-            <label for="correo electronico">Correo electronico:</label>
-            <input type="text" id="correo electronico" name="correo electronico"><br><br>
+            <input type="text" id="DNI" name="DNI">
+        </div>
+
+        <div class="campo">
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo">
+        </div>
+
+        <div class="campo campo-completo">
             <label for="telefono">Teléfono:</label>
-            <input type="text" id="telefono" name="telefono"><br><br>
-        </fieldset>
-        <br>
+            <input type="tel" id="telefono" name="telefono">
+        </div>
+    </fieldset>
+
+    <div class="acciones">
         <input class="boton" type="submit" value="Enviar">
         <input class="boton" type="reset" value="Borrar">
-    </form>
-    <img src="../fotos/conejomandarina.jpg"width=20% class="foto_contenedor" alt="conejo tumbado con una mandarina en al cabeza">
+    </div>
+</form>
+
+    <img src="../fotos/hamstercito.png"width=20% class="foto_contenedor" alt="conejo tumbado con una mandarina en al cabeza">
     </div>
     <footer class="pie">
         <p>© 2026 Amigos Peludos. Todos los derechos reservados.</p>

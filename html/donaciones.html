@@ -39,32 +39,53 @@
         </p><br><br><br>
     </section>
     <div class="contenedor">
-    <img src="../fotos/perrogordo.jpg"width=20% class="foto_contenedor" alt="perro gordo tumbado">
-    <form class="formulario">
-        <fieldset class="fieldset">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre"> <br><br>
-            <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido" name="apellido"><br><br>
-            <label for="DNI">DNI:</label>
-            <input type="text" id="DNI" name="DNI"><br><br>
-            <label for="correo electronico">Correo electronico:</label>
-            <input type="text" id="correo electronico" name="correo electronico"><br><br>
-            <label for="cantidad dinero">¿Cuanta cantidad quieres donar (€)?:</label>
-            <input type="number" id="cantidad dinero" name="cantidad dinero" min="0" value="1"><br><br>
-            <label for="metodo de pago">Metodo de pago:</label>
-            <select>
+    <img src="../fotos/conejito.png"width=20% class="foto_contenedor" alt="perro gordo tumbado">
+   
+<form class="formulario">
+    <fieldset class="fieldset">
+        <div class="campo">
+            <label for="nombre-donacion">Nombre:</label>
+            <input type="text" id="nombre-donacion" name="nombre">
+        </div>
+
+        <div class="campo">
+            <label for="apellido-donacion">Apellido:</label>
+            <input type="text" id="apellido-donacion" name="apellido">
+        </div>
+
+        <div class="campo">
+            <label for="dni-donacion">DNI:</label>
+            <input type="text" id="dni-donacion" name="DNI">
+        </div>
+
+        <div class="campo">
+            <label for="correo-donacion">Correo electrónico:</label>
+            <input type="email" id="correo-donacion" name="correo">
+        </div>
+
+        <div class="campo">
+            <label for="cantidad">¿Cuánto quieres donar (€)?:</label>
+            <input type="number" id="cantidad" name="cantidad" min="1" value="1">
+        </div>
+
+        <div class="campo">
+            <label for="metodo">Método de pago:</label>
+            <select id="metodo" name="metodo">
                 <option value="PayPal">PayPal</option>
                 <option value="Visa">Visa</option>
                 <option value="Apple Pay">Apple Pay</option>
                 <option value="Mastercard">Mastercard</option>
-            </select> <br>
-        </fieldset>
-        <br>
+            </select>
+        </div>
+    </fieldset>
+
+    <div class="acciones">
         <input class="boton" type="submit" value="Enviar">
         <input class="boton" type="reset" value="Borrar">
-    </form>
-    <img src="../fotos/perrobañado.jpg"width=20% class="foto_contenedor" alt="perro bañandose con burbujas en la cabeza">
+    </div>
+</form>
+
+    <img src="../fotos/gatorefugio.png"width=20% class="foto_contenedor" alt="perro bañandose con burbujas en la cabeza">
     </div>
     <footer class="pie">
         <p>© 2026 Amigos Peludos. Todos los derechos reservados.</p>

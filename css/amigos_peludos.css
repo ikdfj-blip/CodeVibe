@@ -123,25 +123,82 @@ nav a:hover{
     object-fit: cover;
     border-radius: 10px;
 }
+
 .formulario {
-    text-align: center;
-    margin: 0 auto;
-    width: 20%;
-    font-family: Verdana;
+    width: 100%;
 }
+
 .fieldset {
-    background-color: var(--verde-claro);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
 }
-.boton {
-    background-color: var(--verde-claro);
-    border: 1px, solid, var(--verde);
-    cursor: pointer;
-    font-family:verdana;
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.campo label {
+    font-size: 14px;
     font-weight: bold;
-    transition: 0.5s;
 }
-.boton:hover{
+
+.campo input,
+.campo select {
+    height: 42px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.campo input:focus,
+.campo select:focus {
+    outline: none;
+    border-color: #6D4AFF;
+}
+
+.campo-completo {
+    grid-column: 1 / -1;
+}
+
+.acciones {
+    display: flex;
+    gap: 12px;
+    margin-top: 18px;
+    justify-content: center;
+}
+
+.boton {
+    display:flex;
+    padding: 11px 22px;
+    border: none;
+    border-radius: 6px;
     background-color: var(--verde);
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.boton:hover {
+    background-color: #5635D6;
+}
+
+
+@media (max-width: 600px) {
+    .fieldset {
+        grid-template-columns: 1fr;
+    }
+
+    .campo-completo {
+        grid-column: auto;
+    }
+
 }
 .contenedor {
     display: flex;
@@ -204,9 +261,6 @@ nav a:hover{
 }
 
 
-
-
-/* tablet */
 @media (max-width: 900px) {
     .fotobichos {
         grid-template-columns: repeat(2, 1fr);
@@ -214,7 +268,6 @@ nav a:hover{
     }
 }
 
-/* movil */
 @media (max-width: 600px) {
     .fotobichos {
         grid-template-columns: 1fr;
